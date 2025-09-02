@@ -18,14 +18,14 @@
       rel="stylesheet"
     />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../style/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style/bootstrap/css/bootstrap.min.css" />
     <!-- Bootstrap Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
     />
 
-    <link rel="stylesheet" href="../style/style.css"">
+    <link rel="stylesheet" href="./style/style.css"">
 
     <style></style>
   </head>
@@ -126,6 +126,25 @@
         </div>
       </div>
     </nav>
+    <!-- Hero Container -->
+    <section class="hero-berita">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5">
+            <h2
+              class="fw-bold"
+              style="font-family: 'Clash Display', 'sans-serif'"
+            >
+              Berita
+            </h2>
+            <p class="fw-medium">
+              Berita terkini seputar kegiatan dan informasi di SMK Negeri 4 Kota
+              Tasikmalaya
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Section Berita -->
     <section class="container my-5">
@@ -135,67 +154,13 @@
       <!-- Berita Utama  -->
       <div class="row g-4">
         <!-- Berita Utama -->
-        <div class="col-lg-8">
-          <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
-            <img
-              src="https://lh3.googleusercontent.com/pw/AP1GczNYNn2lImNNgIwMgFJdrP-xre00E4rOEpVdseBnRB4P70fz8G1x2e1IM8M6A_Tywmh4wadSjGMfjVP5CEzBHWd2Q2dOCH-0ryA6vc1BqNHIoGO6T7nn-mbqNmF_vmUZN1xaVoJLdF0GDueI1rilUrlM=w1680-h945-s-no-gm?authuser=0"
-              class="card-img-top"
-              alt="Berita Utama"
-            />
-            <div class="card-body">
-              <h3 class="card-title fw-bold">
-                Jalan Sehat Dalam Rangka HUT RI Ke 80
-              </h3>
-              <p class="card-text text-muted">
-                SMK Negeri 4 Tasikmalaya mengadakan kegiatan jalan sehat dalam
-                rangka memperingati Hari Ulang Tahun Republik Indonesia yang
-                ke-80. Kegiatan ini diikuti oleh seluruh siswa, guru, dan staf
-                sekolah.....
-              </p>
-              <a href="#" class="text-primary fw-bolder">Baca Selengkapnya</a>
-            </div>
-          </div>
+        <div class="col-lg-8" id="headline-news">
+          
         </div>
 
         <!-- Berita Utama Samping -->
-        <div class="col-lg-4 d-flex flex-column gap-4">
-          <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-            <img
-              src="https://lh3.googleusercontent.com/pw/AP1GczP1f41qU59PiG9x5cW-xGAura67aWJEw5PHnInMnDszoat110Pv68t7ffbatQaQoodJmYT4H8X6TO7gLndh9wdV82LiEOX40fRFLG2Og6q0TuganirTXhy0pu06ZYR-eNOIeMV38EFwG71rGSd4r5j7=w1260-h945-s-no-gm?authuser=0"
-              class="card-img-top object-fit-cover"
-              height="200"
-              alt="Berita 1"
-            />
-            <div class="card-body">
-              <h5 class="card-title fw-semibold">
-                Aksi Ekologi Pada Kegiatan MPLS 2025
-              </h5>
-              <p class="card-text text-muted small">
-                Aksi ekologi yang dilakukan oleh siswa baru SMK Negeri 4
-                Tasikmalaya pada kegiatan Masa Pengenalan Lingkungan Sekolah....
-              </p>
-              <a href="#" class="text-primary fw-semibold">Baca Selengkapnya</a>
-            </div>
-          </div>
-
-          <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-            <img
-              src="https://lh3.googleusercontent.com/pw/AP1GczN0S7eSwJOOrrBU3yDNazy0nobcys-ND2rR4dtiPDEq3KAZKWjujY_D5guKdfKUcnJ_uW8vvqfRhpkx7Y6rBAOU2P7eX9ZS9C6p64Xj5mHZB9b2M_UvHS9pRlc-6xbEB8d0UtqDa8L_mo7tB6bMtyAu=w1680-h945-s-no-gm?authuser=0"
-              class="card-img-top object-fit-cover"
-              height="200"
-              alt="Berita 2"
-            />
-            <div class="card-body">
-              <h5 class="card-title fw-semibold">
-                Kegiatan MBG Di SMKN 4 Tasikmalaya
-              </h5>
-              <p class="card-text text-muted small">
-                Kegiatan MBG di SMK Negeri 4 Tasikmalaya berjalan dengan lancar
-                dan sukses....
-              </p>
-              <a href="#" class="text-primary fw-semibold">Baca Selengkapnya</a>
-            </div>
-          </div>
+        <div class="col-lg-4 d-flex flex-column gap-4" id="headline-news-right">
+          
         </div>
       </div>
     </section>
@@ -204,69 +169,7 @@
     <section class="container my-5">
       <h2 class="fw-bold mb-4 text-center">Berita Lainnya</h2>
 
-      <div class="row g-4">
-        <!-- Card Berita Lainnya 1 -->
-        <div class="col-md-4">
-          <div class="card border-0 shadow-sm rounded-4 h-100">
-            <img
-              src="https://lh3.googleusercontent.com/pw/AP1GczNEbx1whVvxp24aVkvDiUsq-kM9p1qmgpjfKYl4-LivtHubRBylRgBsJ-9hRE8Tn9kVJKKECuTrvAOR976akFDi_Vo29OsyfkkzGIu0KMXQisabneTfzTWJCwqCHWhbbhXg6iSgVltnvu6l4mKwGfR-=w1680-h945-s-no-gm?authuser=0"
-              class="card-img-top object-fit-cover"
-              height="250"
-              alt="Berita Lainnya"
-            />
-            <div class="card-body">
-              <h5 class="card-title fw-semibold">
-                Talkshow Dengan Siswa Magang Dari Amerika
-              </h5>
-              <p class="card-text text-muted small">
-                Kegiatan talkshow dengan siswa magang dari Amerika yang dihadiri
-                oleh English Club SMK Negeri 4 Tasikmalaya berjalan dengan....
-              </p>
-              <a href="#" class="text-primary fw-semibold">Baca Selengkapnya</a>
-            </div>
-          </div>
-        </div>
-        <!-- Card Berita Lainnya 2 -->
-        <div class="col-md-4">
-          <div class="card border-0 shadow-sm rounded-4 h-100">
-            <img
-              src="https://lh3.googleusercontent.com/pw/AP1GczM09oGIldZyE6F5nutl6YCo6gBRHl40os6e2lDDBrvFQ7V43cdukqhzo1zwjSDkKHVnPpIFYLvmgF6a_jbZnNkhGHNrvleUyhh1LsDcx8R88VStb8M15hDoB1k4CCJD6hBe7CEzJrXSa7KtT_4iaDwv=w1680-h945-s-no-gm?authuser=0"
-              class="card-img-top object-fit-cover"
-              height="250"
-              alt="Berita Lainnya"
-            />
-            <div class="card-body">
-              <h5 class="card-title fw-semibold">
-                Pelepasan Siswa/Siswi Kelas XII
-              </h5>
-              <p class="card-text text-muted small">
-                Acara pelepasan siswa/siswi kelas XII SMK Negeri 4 Tasikmalaya
-                berjalan dengan khidmat dan meriah....
-              </p>
-              <a href="#" class="text-primary fw-semibold">Baca Selengkapnya</a>
-            </div>
-          </div>
-        </div>
-        <!-- Card Berita Lainnya 3 -->
-        <div class="col-md-4">
-          <div class="card border-0 shadow-sm rounded-4 h-100">
-            <img
-              src="https://lh3.googleusercontent.com/pw/AP1GczOcpXTUQlEeBryImWC7qu8WGph58Mn0--oJfVoeJVdmaGu3q1vcVk6nVWAkbayIIprv81oKocOHE8UJ0qNVfpjeUdSsTJCsWpMGpWiSYoSYOJaUDFvwYZToka0rO3tI62WRgoQa1oel6yRQ4bHJb15V-g=w1260-h945-s-no-gm?authuser=0"
-              alt="Berita Lainnya"
-              class="card-img-top object-fit-cover"
-              height="250"
-            />
-            <div class="card-body object-fit-cover">
-              <h5 class="card-title fw-semibold">Touring Marcopolo</h5>
-              <p class="card-text text-muted small">
-                Kegiatan touring marcopolo yang diikuti oleh para guru dan staf
-                di SMK Negeri 4 Tasikmalaya berjalan dengan lancar dan
-                sukses....
-              </p>
-              <a href="#" class="text-primary fw-semibold">Baca Selengkapnya</a>
-            </div>
-          </div>
-        </div>
+      <div class="row g-4" id="other-news">
       </div>
     </section>
 
@@ -368,6 +271,8 @@
     </footer>
 
     <!-- Bootstrap JS -->
-    <script src="../script/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./script/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./script/berita-data.js"></script>
+    <script src="./script/berita.js"></script>
   </body>
 </html>
