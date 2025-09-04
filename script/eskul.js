@@ -8,7 +8,7 @@ data.forEach((item)=> {
           <div class="card shadow-sm text-center border-light h-100">
             <img
               src="${item.img}"
-              class="card-img-top w-50 mx-auto py-3"
+              class="card-img-top rounded-circle w-25 mx-auto py-3"
               alt="${item.nama}"
             />
             <div class="card-body">
